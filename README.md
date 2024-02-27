@@ -1,11 +1,10 @@
 # IBM AI Enterprise Workflow Capstone
-Files for the IBM AI Enterprise Workflow Capstone project. 
+Welcome to my Project :))
 
 ## Part 1
 
 ### Case study part 1
-
-At this point in the project, and in any data science project really, it is best to loosly organize your code as libraries and scripts.  Jupyter notebooks are a convenient and powerful tool, but we have mentioned several times that they are not a good place for source code to live.  If you decide to use a notebook for this part, we recommend that it is used to run functions that live within a [python module](https://docs.python.org/3/tutorial/modules.html).
+At this point in the project, and in any data science project really, it is best to loosly organize your code as libraries and scripts. Jupyter notebooks are a convenient and powerful tool, but we have mentioned several times that they are not a good place for source code to live. 
 
 ### Deliverable goals
 
@@ -29,18 +28,9 @@ Using the feature matrix and the tools abvailable to you through EDA spend some 
 
 5. Articulate your findings using a deliverable with visualizations.
 
-Summarize what you have learned in your investigations using visualizations.
 
-### Hints
 
-* The JSON files may not contain uniformly named features. Be sure to account for this in your data ingestion function.
-* Some of the invoice ids (`invoice`) have letters that can be removed to improve matching.
-* One common way to ready time-series data for modeling is to aggregate the transactions by day. Getting the data into this form will help you prepare for part 2.
-* If you have not worked with time-series or time-stamped data before the following two links can be useful.
 
-  * [NumPy datetime](https://docs.scipy.org/doc/numpy/reference/arrays.datetime.html)
-  * [Pandas time-series](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
-  * [matplotlib time-series plot](https://matplotlib.org/3.1.1/gallery/text_labels_and_annotations/date.html)
 
 
 ## Part 2
@@ -87,33 +77,7 @@ level, try to project several months into the future with one or both of these i
 Also, be aware that the assumptions of line regression are generally invalidated when using time-series data because of auto-correlation.  The engineered features are derived mostly from revenue which often means that there is a high degree of correlation.  You will get further with more sophisticated models to in combination with smartly engineered features. 
 
 
-## Commonly used time-series tools
 
-  * [statsmodels time-series package](https://www.statsmodels.org/dev/tsa.html) - one of the most commonly used 
-  time-series analysis packages in Python.  There are a suite of models including autoregressive models (AR), 
-  vector autoregressive models (VAR), univariate autoregressive moving average models (ARMA) and more.
-  * [Tensorflow time series tutorial](https://www.tensorflow.org/tutorials/structured_data/time_series)
-  * [Prophet](https://research.fb.com/prophet-forecasting-at-scale/)
-  
-## More advanced methods for time-series analysis
-
-  * [PyWavelets](https://pywavelets.readthedocs.io/en/latest/)
-  * [Bayesian Methods for time-series](https://docs.pymc.io/api/distributions/timeseries.html)
-  * [Gaussian process regression](https://scikit-learn.org/stable/auto_examples/gaussian_process/plot_gpr_noisy_targets.html)
-
-## Working with time-series data
-
-  * [scikit-learn MultiOutputRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputRegressor.html)
-  * [NumPy datetime](https://docs.scipy.org/doc/numpy/reference/arrays.datetime.html)
-  * [Pandas time-series](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html)
-  * [matplotlib time-series plot](https://matplotlib.org/3.1.1/gallery/text_labels_and_annotations/date.html)
-  * [scikit-learn time-series train-test split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html)
-
-## Additional materials
-
-  * [Intro paper to Gaussian Processes in time-series](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2011.0550)
-  * [Paper for using wavelets to aid time-series forecasts](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142064)
-  
 ## Part 3
 
 ## Outline
